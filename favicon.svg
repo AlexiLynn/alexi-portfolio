@@ -1,0 +1,23 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#9D5BD2;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#10B981;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Center circle -->
+    <circle cx="16" cy="16" r="3.5" stroke="url(#gradient)" stroke-width="1.5" fill="url(#gradient)"/>
+    
+    <!-- Cardinal rays (main directions) - made very obvious -->
+    <rect x="15" y="2" width="2" height="8" fill="url(#gradient)" rx="1"/>
+    <rect x="22" y="15" width="8" height="2" fill="url(#gradient)" rx="1"/>
+    <rect x="15" y="22" width="2" height="8" fill="url(#gradient)" rx="1"/>
+    <rect x="2" y="15" width="8" height="2" fill="url(#gradient)" rx="1"/>
+    
+    <!-- Diagonal rays -->
+    <line x1="23.5" y1="8.5" x2="20.5" y2="11.5" stroke="url(#gradient)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="23.5" y1="23.5" x2="20.5" y2="20.5" stroke="url(#gradient)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="8.5" y1="23.5" x2="11.5" y2="20.5" stroke="url(#gradient)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="8.5" y1="8.5" x2="11.5" y2="11.5" stroke="url(#gradient)" stroke-width="3" stroke-linecap="round"/>
+</svg>
